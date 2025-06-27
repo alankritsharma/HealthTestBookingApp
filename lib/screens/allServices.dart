@@ -62,7 +62,7 @@ class AllTestsScreen extends StatelessWidget {
                                             TestDetailsScreen(test: test)));
                               },
                               style: ElevatedButton.styleFrom(
-                                primary: Color(0xFF3E69FE),
+                                backgroundColor: Color(0xFF3E69FE),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(10),
                                 ),

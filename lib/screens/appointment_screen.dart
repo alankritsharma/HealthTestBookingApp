@@ -187,7 +187,7 @@ class BookingCard extends StatelessWidget {
                             },
                           );
                         },
-                        style: ElevatedButton.styleFrom(primary: Color(0xFF3E69FE)),
+                        style: ElevatedButton.styleFrom(backgroundColor: Color(0xFF3E69FE)),
                         child: Text(
                           'Review',
                           style: TextStyle(color: Colors.white),
@@ -202,7 +202,7 @@ class BookingCard extends StatelessWidget {
                         onPressed: () {
                           // Add logic for rescheduling the booking
                         },
-                        style: ElevatedButton.styleFrom(primary: Color(0xFF3E69FE)),
+                        style: ElevatedButton.styleFrom(backgroundColor: Color(0xFF3E69FE)),
                         child: Text(
                           'Reschedule',
                           style: TextStyle(color: Colors.white),
@@ -308,7 +308,7 @@ class FeedbackForm extends StatelessWidget {
               // Close the modal bottom sheet
               Navigator.of(context).pop();
             },
-            style: ElevatedButton.styleFrom(primary: Color(0xFF3E69FE)),
+            style: ElevatedButton.styleFrom(backgroundColor: Color(0xFF3E69FE)),
             child: Text(
               'Submit Review',
               style: TextStyle(color: Colors.white),
